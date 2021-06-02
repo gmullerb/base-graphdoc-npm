@@ -15347,7 +15347,7 @@ type MoveProjectColumnPayload {
 }
 
 """
-Represents a 'moved_columns_in_project' event on a given issue or pull request.
+@RemoveFromDocumentation Represents a 'moved_columns_in_project' event on a given issue or pull request.
 """
 type MovedColumnsInProjectEvent implements Node {
   """
@@ -15401,9 +15401,7 @@ type Mutation {
     input: AcceptEnterpriseAdministratorInvitationInput!
   ): AcceptEnterpriseAdministratorInvitationPayload
 
-  """
-  Applies a suggested topic to the repository.
-  """
+  """ @RemoveFromDocumentation Applies a suggested topic to the repository. """
   acceptTopicSuggestion(
     """
     Parameters for AcceptTopicSuggestion
