@@ -15420,7 +15420,7 @@ type Mutation {
   ): AddAssigneesToAssignablePayload
 
   """
-  Adds a comment to an Issue or Pull Request.
+  Adds a comment to an Issue or Pull Request. (Some extra not official documentation to get more that 80 columns in a line)
   """
   addComment(
     """
@@ -15430,7 +15430,7 @@ type Mutation {
   ): AddCommentPayload
 
   """
-  Adds a support entitlement to an enterprise member.
+  Adds a support entitlement to an enterprise member. (Some extra not official documentation with <span>HTML code</span>)
   """
   addEnterpriseSupportEntitlement(
     """
@@ -15440,7 +15440,7 @@ type Mutation {
   ): AddEnterpriseSupportEntitlementPayload
 
   """
-  Adds labels to a labelable object.
+  Adds labels to a labelable object.. (Some extra not official documentation with <span class='line'>HTML code with classes</span>)
   """
   addLabelsToLabelable(
     """
@@ -15450,7 +15450,7 @@ type Mutation {
   ): AddLabelsToLabelablePayload
 
   """
-  Adds a card to a ProjectColumn. Either `contentId` or `note` must be provided but **not** both.
+  Adds a card to a ProjectColumn. Either `contentId` or `note` must be provided but **not** both. (Some extra not official documentation with <span style="display: block;font-weight: bold;">HTML code with style</span>)
   """
   addProjectCard(
     """
